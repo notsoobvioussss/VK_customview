@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VK_customview" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.VK_customview" parent="Base.Theme.VK_customview" />
+
+    <style name="Theme.VK_customview.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.VK_customview.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.VK_customview.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
